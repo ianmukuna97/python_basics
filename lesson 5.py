@@ -1,8 +1,13 @@
 # if statements
 # store data list, tuple, dictionary, set
 #loops
+# 64 '64'
+entered_value = input("Enter the score:")
+# print(type(entered_value))
+# print(type((71))
+# print(type(55.22))
 
-score = 77
+score = int(entered_value) # convert to a number-- integer
 
 if score >=78:
     print("A")
