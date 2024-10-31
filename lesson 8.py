@@ -17,3 +17,5 @@ print(people)
 print(len(people)) # count
 people.discard("Kevo")
 print(people)
+
+# loops and functions
