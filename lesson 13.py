@@ -13,11 +13,11 @@ class Cylinder:
             area = 22 / 7 * self.r ** 2 + 2 * 22 / 7 * self.r * self.h
             print(f"Area of open cylinder is: {area}")
 
-        def calc_volume(self):
+    def calc_volume(self):
             v = 22 / 7 * self.r ** 2 * self.h
             print(f"Volume of cylinder is: {v}")
 
-        c1 = Cylinder(10, 11, "Red")
-        c2 = Cylinder(7.8, 22.6, "Blue")
-        c1.calc_volume()
-        c1.calc_area(is_closed=False)
+c1 = Cylinder(10, 11, "Red")
+c2 = Cylinder(7.8, 22.6, "Blue")
+c1.calc_volume()
+c1.calc_area(is_closed=False)
