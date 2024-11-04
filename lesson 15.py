@@ -17,7 +17,7 @@ class PermanentEmployee(Employee):
     def __init__(self, name, id_number, dob, gender, salary):
         super().__init__(name, id_number, dob, gender)
         self.salary = salary
-
+    #override
     def print_salary(self):
         print(f"Salary is {self.salary}")
 
@@ -33,3 +33,11 @@ class TemporaryEmployee(Employee):
 
     def print_end_date(self):
         print(f"End date is {self.end_date}")
+
+p1= PermanentEmployee(salary=10000, name="Jane Said", id_number="244423322", dob="1990-12-31", gender="F" )
+p1.print_details()
+p1.print_salary()
+
+t1= TemporaryEmployee("Jim", "22216273", "1995-11-12", "M", 1000, "2024-12-23")
+t1.print_hourly_pay()
+
